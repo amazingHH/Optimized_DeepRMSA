@@ -4,6 +4,6 @@ This program is forked from X. Chen, but the performance of the agent design is 
   1. Change the file write time.
   2. Re-design the DRL rewords system(Add the dynamic fragmentation detection).
   3. The original code do not support many Python 3.x API, so the author made proting job from Python 2.x to 3.x on this part.
-The main modification in the Deep_RMSA_A3C.py file.
 
+The main modification in the Deep_RMSA_A3C.py file.
 After the training the new code has an obvious advantage than OG on the Blocking probablity.

@@ -1,5 +1,5 @@
 # Optimized_DeepRMSA
-An Optimized DeepRMSA
+An Optimized DeepRMSA Code
 This program is forked from X. Chen, but the performance of the agent design is not very good and the the original code can not support python 3.x API, the author made some modifications.
   1. Change the file write time.
   2. Re-design the DRL rewords system(Add the dynamic fragmentation detection).
