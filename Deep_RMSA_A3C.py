@@ -180,7 +180,7 @@ with tf.device("/cpu:0"):
                             num_layers = num_layers,
                             layer_size = layer_size,
                             regu_scalar = regu_scalar) # Generate global network
-    num_agents = 12 #multiprocessing.cpu_count() # Set workers to number of available CPU threads
+    num_agents = 16 #multiprocessing.cpu_count() # Set workers to number of available CPU threads
     if num_agents > max_cpu:
         num_agents = max_cpu # as most assign max_cpu CPUs
     agents = []
